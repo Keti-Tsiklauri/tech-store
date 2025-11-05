@@ -1,3 +1,4 @@
+import Products from "../components/Products";
 export default function Laptops() {
-  return <h1>l</h1>;
+  return <Products category="laptops" title="Laptops" />;
 }

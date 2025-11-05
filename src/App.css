@@ -1,0 +1,19 @@
+/* Make the app take full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flex layout for the app */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content grows to fill space */
+.main-content {
+  flex: 1;
+}

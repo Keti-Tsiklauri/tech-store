@@ -1,3 +1,8 @@
+import Products from "../components/Products";
 export default function MobilePhones() {
-  return <h1>mobile</h1>;
+  return (
+    <div>
+      <Products category="smartphones" title="Mobile Phones" />
+    </div>
+  );
 }

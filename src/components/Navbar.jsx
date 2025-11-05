@@ -23,15 +23,11 @@ export default function Navbar() {
         <NavLink to="/mobile-phones" className="link" onClick={handleLinkClick}>
           Mobile Phones
         </NavLink>
+
         <NavLink to="/laptops" className="link" onClick={handleLinkClick}>
           Laptops
         </NavLink>
-        <NavLink to="/computers" className="link" onClick={handleLinkClick}>
-          Computers
-        </NavLink>
-        <NavLink to="/accessories" className="link" onClick={handleLinkClick}>
-          Accessories
-        </NavLink>
+
         <NavLink to="/cart" className="link" onClick={handleLinkClick}>
           Cart
         </NavLink>

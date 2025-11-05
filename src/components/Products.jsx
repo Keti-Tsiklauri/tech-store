@@ -98,7 +98,7 @@ export default function Products({ category, title }) {
             <div key={product.id} className="product-card">
               {getQuantity(product.id) > 0 && (
                 <span className="bought-badge">
-                  Bought x{getQuantity(product.id)}
+                  Added x{getQuantity(product.id)}
                 </span>
               )}
               <img

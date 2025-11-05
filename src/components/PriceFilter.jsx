@@ -19,7 +19,7 @@ export default function PriceFilter({
   const handleClearClick = () => {
     setMinPrice("");
     setMaxPrice("");
-    onFilter({ min: 0, max: Infinity }); // reset filter
+    onFilter({ min: 0, max: Infinity });
   };
 
   return (

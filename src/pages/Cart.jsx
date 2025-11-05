@@ -6,7 +6,6 @@ export default function Cart() {
     return JSON.parse(localStorage.getItem("cart")) || [];
   });
 
-  // Update quantity of an item
   const handleQuantityChange = (id, value) => {
     const newCart = cart.map((item) =>
       item.id === id ? { ...item, quantity: Number(value) } : item
@@ -15,14 +14,12 @@ export default function Cart() {
     localStorage.setItem("cart", JSON.stringify(newCart));
   };
 
-  // Remove item from cart
   const handleRemove = (id) => {
     const newCart = cart.filter((item) => item.id !== id);
     setCart(newCart);
     localStorage.setItem("cart", JSON.stringify(newCart));
   };
 
-  // Calculate total price
   const totalPrice = cart
     .reduce((acc, item) => acc + item.price * item.quantity, 0)
     .toFixed(2);

@@ -8,8 +8,8 @@ export default function MainPage() {
         <h1>Welcome to TechWorld</h1>
         <p>
           At TechWorld, we’ve been providing high-quality electronics for over a
-          decade. From laptops to smartphones and accessories, we bring the best
-          technology to our customers.
+          decade. From laptops to smartphones , we bring the best technology to
+          our customers.
         </p>
       </header>
 
@@ -23,7 +23,7 @@ export default function MainPage() {
           <p>Products Sold</p>
         </div>
         <div className="stat-card">
-          <h2>3</h2>
+          <h2>2</h2>
           <p>Product Categories</p>
         </div>
         <div className="stat-card">
@@ -39,7 +39,7 @@ export default function MainPage() {
           ourselves on delivering the latest technology at competitive prices,
           providing excellent customer service, and helping our clients find the
           perfect device for their needs. Whether you’re looking for laptops,
-          smartphones, or accessories, we’ve got you covered.
+          smartphones we’ve got you covered.
         </p>
       </section>
     </div>

@@ -5,7 +5,6 @@ import "./Navbar.css";
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
-  // Function to close menu when a link is clicked
   const handleLinkClick = () => {
     setShowMenu(false);
   };
@@ -30,6 +29,9 @@ export default function Navbar() {
 
         <NavLink to="/cart" className="link" onClick={handleLinkClick}>
           Cart
+        </NavLink>
+        <NavLink to="/review" className="link" onClick={handleLinkClick}>
+          Reviews
         </NavLink>
       </div>
 

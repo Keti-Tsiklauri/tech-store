@@ -8,6 +8,7 @@ import MobilePhones from "./pages/MobilePhones";
 import Laptops from "./pages/Laptops";
 import Cart from "./pages/Cart";
 import Footer from "./components/Footer";
+import Review from "./pages/Review";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/mobile-phones" element={<MobilePhones />} />
             <Route path="/laptops" element={<Laptops />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/review" element={<Review />} />
           </Routes>
         </div>
         <Footer />
